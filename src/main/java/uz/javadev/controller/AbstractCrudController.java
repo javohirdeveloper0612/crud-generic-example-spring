@@ -1,13 +1,13 @@
-package uz.javadev.crudgenericexample.controller;
+package uz.javadev.controller;
 
 import jakarta.validation.Valid;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.data.domain.Pageable;
 import org.springframework.web.bind.annotation.*;
-import uz.javadev.crudgenericexample.service.AbstractCrudService;
-import uz.javadev.crudgenericexample.service.dto.CommonResultData;
-import uz.javadev.crudgenericexample.service.dto.PageableResult;
+import uz.javadev.service.AbstractCrudService;
+import uz.javadev.service.dto.CommonResultData;
+import uz.javadev.service.dto.PageableResult;
 
 import java.io.Serializable;
 import java.util.List;
@@ -19,7 +19,7 @@ import java.util.List;
  * @param <DTO>     the type of the Data Transfer Object (DTO) representing the entity.
  * @param <SERVICE> the type of the service implementing CRUD operations.
  *
- * @developer javadev
+ * @author javadev0612
  */
 @Slf4j
 @RequiredArgsConstructor

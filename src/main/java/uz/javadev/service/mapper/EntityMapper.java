@@ -1,4 +1,4 @@
-package uz.javadev.crudgenericexample.service.mapper;
+package uz.javadev.service.mapper;
 
 import org.mapstruct.*;
 

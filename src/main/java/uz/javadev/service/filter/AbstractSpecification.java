@@ -1,4 +1,4 @@
-package uz.javadev.crudgenericexample.service.filter;
+package uz.javadev.service.filter;
 
 import org.springframework.data.jpa.domain.Specification;
 

@@ -1,15 +1,15 @@
-package uz.javadev.crudgenericexample.service.filter;
+package uz.javadev.service.filter;
 
 import jakarta.persistence.criteria.Predicate;
 import org.springframework.data.jpa.domain.Specification;
 import org.springframework.stereotype.Component;
-import uz.javadev.crudgenericexample.domain.User;
-import uz.javadev.crudgenericexample.service.dto.UserDto;
+import uz.javadev.domain.User;
+import uz.javadev.service.dto.UserDto;
 
 import java.util.ArrayList;
 import java.util.List;
 
-import static uz.javadev.crudgenericexample.utils.Constants.USERS;
+import static uz.javadev.utils.Constants.USERS;
 
 @Component
 public class UserSpecification implements AbstractSpecification<User, UserDto> {

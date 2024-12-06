@@ -1,4 +1,4 @@
-package uz.javadev.crudgenericexample.repository.slice;
+package uz.javadev.repository.slice;
 
 import jakarta.persistence.EntityManager;
 import org.springframework.data.jpa.repository.JpaRepository;

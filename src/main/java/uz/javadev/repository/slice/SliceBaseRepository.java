@@ -1,4 +1,4 @@
-package uz.javadev.crudgenericexample.repository.slice;
+package uz.javadev.repository.slice;
 
 import jakarta.annotation.Nullable;
 import org.springframework.data.domain.Pageable;
