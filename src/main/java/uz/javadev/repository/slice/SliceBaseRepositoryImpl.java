@@ -1,4 +1,4 @@
-package uz.javadev.crudgenericexample.repository.slice;
+package uz.javadev.repository.slice;
 
 import jakarta.persistence.EntityManager;
 import jakarta.persistence.TypedQuery;
@@ -36,7 +36,7 @@ public class SliceBaseRepositoryImpl<T, ID extends Serializable> extends SimpleJ
      * @return a `Slice` of data, containing the results, pagination details, and whether
      *         there is a next page.
      *
-     * @developer javadev
+     * @author javadev0612
      */
     @Override
     public Slice<T> findAllSliced(Specification<T> spec, Pageable pageable) {

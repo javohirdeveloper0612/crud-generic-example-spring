@@ -1,8 +1,8 @@
-package uz.javadev.crudgenericexample.service.mapper;
+package uz.javadev.service.mapper;
 
 import org.mapstruct.Mapper;
-import uz.javadev.crudgenericexample.domain.User;
-import uz.javadev.crudgenericexample.service.dto.UserDto;
+import uz.javadev.domain.User;
+import uz.javadev.service.dto.UserDto;
 
 @Mapper(componentModel = "spring")
 public interface UserMapper extends EntityMapper<UserDto, User> {

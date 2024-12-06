@@ -1,8 +1,8 @@
-package uz.javadev.crudgenericexample.repository;
+package uz.javadev.repository;
 
 import org.springframework.data.jpa.repository.JpaSpecificationExecutor;
 import org.springframework.data.repository.NoRepositoryBean;
-import uz.javadev.crudgenericexample.repository.slice.SliceBaseRepository;
+import uz.javadev.repository.slice.SliceBaseRepository;
 
 import java.io.Serializable;
 

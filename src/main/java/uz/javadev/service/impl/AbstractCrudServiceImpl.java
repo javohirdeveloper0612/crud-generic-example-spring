@@ -1,20 +1,20 @@
-package uz.javadev.crudgenericexample.service.impl;
+package uz.javadev.service.impl;
 
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.data.domain.Pageable;
-import uz.javadev.crudgenericexample.repository.slice.SliceBaseRepository;
-import uz.javadev.crudgenericexample.service.AbstractCrudService;
-import uz.javadev.crudgenericexample.service.dto.CommonResultData;
-import uz.javadev.crudgenericexample.service.dto.PageableResult;
-import uz.javadev.crudgenericexample.service.filter.AbstractSpecification;
-import uz.javadev.crudgenericexample.service.mapper.EntityMapper;
+import uz.javadev.repository.slice.SliceBaseRepository;
+import uz.javadev.service.AbstractCrudService;
+import uz.javadev.service.dto.CommonResultData;
+import uz.javadev.service.dto.PageableResult;
+import uz.javadev.service.filter.AbstractSpecification;
+import uz.javadev.service.mapper.EntityMapper;
 
 import java.io.Serializable;
 import java.util.Collections;
 import java.util.List;
 
-import static uz.javadev.crudgenericexample.utils.PaginationUtil.generateUnPaginationHttpHeaders;
+import static uz.javadev.utils.PaginationUtil.generateUnPaginationHttpHeaders;
 
 @Slf4j
 @RequiredArgsConstructor

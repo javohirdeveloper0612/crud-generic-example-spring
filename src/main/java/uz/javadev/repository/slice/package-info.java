@@ -1,1 +1,1 @@
-package uz.javadev.crudgenericexample.repository.slice;
+package uz.javadev.repository.slice;

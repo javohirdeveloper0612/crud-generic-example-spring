@@ -1,4 +1,4 @@
-package uz.javadev.crudgenericexample.domain;
+package uz.javadev.domain;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
 import jakarta.persistence.Column;

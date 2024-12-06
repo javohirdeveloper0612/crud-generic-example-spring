@@ -1,9 +1,9 @@
-package uz.javadev.crudgenericexample.domain;
+package uz.javadev.domain;
 
 import jakarta.persistence.*;
 import lombok.Data;
 import lombok.EqualsAndHashCode;
-import uz.javadev.crudgenericexample.utils.Constants;
+import uz.javadev.utils.Constants;
 
 import java.io.Serializable;
 
@@ -17,7 +17,7 @@ public class User extends AbstractAuditingEntity implements Serializable {
     private String id;
 
     @Column(name = "first_name")
-    private String name;
+    private String firstName;
 
     @Column(name = "last_name")
     private String lastName;

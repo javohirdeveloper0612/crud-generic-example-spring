@@ -1,4 +1,4 @@
-package uz.javadev.crudgenericexample.service.dto;
+package uz.javadev.service.dto;
 
 import lombok.Data;
 import lombok.experimental.Accessors;
