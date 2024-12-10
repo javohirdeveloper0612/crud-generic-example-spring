@@ -23,6 +23,7 @@ public class Apartment extends AbstractAuditingEntity {
     @Column(name = "room_count")
     private Integer roomCount;
 
+    @Enumerated(EnumType.STRING)
     @Column(name = "type")
     private ApartType type;
 
