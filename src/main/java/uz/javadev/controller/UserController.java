@@ -16,16 +16,16 @@ import static uz.javadev.utils.Constants.USERS;
 @RequestMapping("/api/users")
 public class UserController extends AbstractCrudController<String, UserDto, UserService> {
 
-    private final UserService userService;
+    private final UserService service;
 
-    public UserController(UserService service, UserService userService) {
+    public UserController(UserService service) {
         super(service, USERS);
-        this.userService = userService;
+        this.service = service;
     }
 
     @GetMapping("/get-by-username/{username}")
     public CommonResultData<UserDto> getByUsername(@PathVariable String username) {
         log.info("REQUEST getByUsername {}", username);
-        return userService.getByUsername(username);
+        return service.getByUsername(username);
     }
 }

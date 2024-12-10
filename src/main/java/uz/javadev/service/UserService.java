@@ -17,10 +17,12 @@ public class UserService extends AbstractCrudServiceImpl<String, UserDto, User, 
     private final UserRepository repository;
     private final UserMapper mapper;
 
-    public UserService(UserMapper mapper, UserSpecification specification, UserRepository repository, UserRepository repository1, UserMapper mapper1) {
+    public UserService(UserMapper mapper,
+                       UserSpecification specification,
+                       UserRepository repository) {
         super(mapper, specification, repository);
-        this.repository = repository1;
-        this.mapper = mapper1;
+        this.repository = repository;
+        this.mapper = mapper;
     }
 
     @Override

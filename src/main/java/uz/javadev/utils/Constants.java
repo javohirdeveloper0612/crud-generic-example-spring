@@ -12,4 +12,5 @@ public final class Constants {
      * Table Names
      */
     public static final String USERS = "users";
+    public static final String APARTMENT = "apartment";
 }
