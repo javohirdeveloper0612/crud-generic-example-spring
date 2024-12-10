@@ -11,6 +11,10 @@ import java.net.InetAddress;
 import java.net.UnknownHostException;
 import java.util.Optional;
 
+/**
+ * Crud Generic Example
+ * @author Javohir Yallayev
+ */
 @Slf4j
 @SpringBootApplication(scanBasePackages = "uz.javadev")
 public class CrudGenericExampleApplication {
